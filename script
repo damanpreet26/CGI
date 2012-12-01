@@ -5,7 +5,7 @@ echo Content-type: text/html
 echo
 echo "#########################################################"
 echo "<br>"
-echo "<p>#     Mysql connection checking script               #</p>"
+echo "Mysql connection checking script"   
 echo "<br>"
 echo "#########################################################"
 echo "<br>"
@@ -28,10 +28,6 @@ if [ $RESULT ]; then
 else
     echo "" 
     echo "Username and password doesn't match"
-    echo "<br>"
-    echo "re-enter the details"
-    echo ""
-
 fi
 
 
